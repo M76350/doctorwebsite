@@ -1,0 +1,361 @@
+:root{
+  --blue:#5F6FFF;
+  --lightsky:#EAEFFF;
+
+   --brown: #4B5563;
+   --lightgreen:#0FBF00;
+
+
+
+
+
+}
+.bg-blue{
+  background-color: var(--blue) !important;
+}
+.text-brown{
+  color: var(--brown) !important;
+}
+.text-brown-1{
+  color: rgb(138, 132, 132) !important;
+}
+.text-lightgreen{
+  color: var(--lightgreen) !important;
+}
+.bg-lightsky{
+  background-color: var(--lightsky) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+.fw-300 {
+  font-weight: 300;
+}
+.fw-400 {
+  font-weight: 400;
+}
+.fw-500 {
+  font-weight: 500;
+}
+.fw-600 {
+  font-weight: 600;
+}
+.fw-700 {
+  font-weight: 700;
+}
+.fw-800 {
+  font-weight: 800;
+}
+.fw-900 {
+  font-weight: 900;
+}
+/* Typography
+  ============================*/
+
+.fs-80 {
+  font-size: 80px;
+}
+.fs-60{
+    font-size: 60px;
+}
+.fs-52 {
+  font-size: 48px;
+}
+.fs-50 {
+  font-size: 50px;
+}
+
+.fs-40 {
+  font-size: 32px;
+}
+.fs-32 {
+  font-size: 28px;
+}
+.fs-29 {
+  font-size: 29px;
+}
+.fs-28 {
+  font-size: 28px;
+}
+.fs-25 {
+  font-size: 25px;
+}
+.fs-24 {
+  font-size: 24px;
+}
+.fs-23 {
+  font-size: 23px;
+}
+.fs-22 {
+  font-size: 22px;
+}
+.fs-21 {
+  font-size: 21px;
+}
+.fs-20 {
+  font-size: 20px;
+}
+.fs-19 {
+  font-size: 19px;
+}
+.fs-18 {
+  font-size: 18px;
+}
+.fs-16 {
+  font-size: 16px;
+}
+.fs-14 {
+  font-size: 14px;
+}
+
+/* custom css for width
+ */
+
+.fit {
+  width: fit-content !important ;
+}
+
+.mx-{
+    margin-left: -10px !important;
+}
+
+
+/* custom styling for contianer */
+.container {
+  width: 100%;
+
+  padding: 0 15px;
+
+  margin: 0 auto;
+}
+.veryfied{
+  width: 25px;
+  height: 25px;
+}
+
+.veryfied-1{
+  width: 19px;
+  height: 19px;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px !important;
+    margin: 0 auto !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px !important;
+    margin: 0 auto !important;
+  }
+  .font{
+    font-size: 2rem !important;
+  }
+  
+    
+  
+
+
+}
+
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px !important;
+    margin: 0 auto !important;
+  }
+  .font{
+    font-size: 3rem !important;
+  }
+  
+    
+  
+  
+
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1180px !important;
+    margin: 0 auto !important;
+  }
+}
+
+@media (min-width: 1570px) {
+    .container {
+      max-width: 1300px !important;
+      margin: 0 auto !important;
+    }
+  }
+
+
+@media (min-width: 1800px) {
+    .container {
+      max-width: 1500px !important;
+      margin: 0 auto !important;
+    }
+  }
+
+/* card iamge */
+.card-img{
+    height: 80px !important;
+    width: 80px !important;
+}
+.doc-img{
+    width: 255px !important;
+    height: 275px !important;
+}
+.nourse-img{
+    width: 500px ;
+    height: 400px;
+}
+.bg-card{
+    background: linear-gradient(180deg, #AFC1DC 0%, #E2E5ED 100%) !important;
+
+}
+.dot{
+    width: 10px;
+    height: 10px;
+}
+.text-lightwhite{
+    color: #4B5563 !important;
+
+}
+
+.contact-img{
+  width: 400px !important;
+  height: 400px !important;
+}
+
+.dot-img{
+  width: 12px;
+  height: 12px;
+}
+
+
+
+/* custom for width */
+
+.w-18{
+    width:18% !important;
+}
+
+.w-40{
+  width: 40% !important;
+}
+.w-30{
+  width: 30% !important;
+}
+.w-70{
+  width: 70% !important;
+}
+.w-max{
+  width: fit-content !important;
+}
+
+
+
+
+.w-20{
+    width:20% !important;
+
+}
+
+/* height
+ */
+
+ .h-110{
+    height: 100%;
+ }
+ .card{
+  height: 240px;
+  width: 240px;
+    flex: 1 0 174px;
+ }
+
+ @media (max-width:992px) {
+    /* .ul-list{
+        position: absolute !important;
+        width: 100% !important;
+        height: auto !important;
+        background-color: red !important;
+        margin-top: 250px !important;
+        
+    
+        
+      }
+      ul li{
+        margin-top: 30px !important;
+      }
+      nav{
+        position: relative;
+      } */
+    
+ }
+
+ 
+
+ @media (max-width:768px) {
+  .w-md{
+    width: 100% !important;
+  }
+  /*  */
+.home-text{
+  font-size: 2rem !important;
+
+}
+.appointment-box{
+  padding-top: 30px !important;
+}
+
+}
+
+
+
+
+ .doctor-categre:hover {
+ 
+  background-color: #5F6FFF !important;
+  transition: background-color 2s ease-in-out !important;
+ }
+
+
+ .card-head:hover{
+  margin-top: -20px !important;
+  transition: all  .3s ease-in-out !important;
+
+
+
+ }
+
+ .round-img:hover{
+  scale: 1.1 !important;
+  transition: all 1.2s ease-in-out;
+ }
+
+
+ .box-text:hover{
+  background-color: #5F6FFF !important;
+  color: white !important;
+
+ }
+ 
+ .doc-img:hover{
+  scale: .3;
+  transition: all 2s ease-in;
+
+ }
+
+
+
+ 
